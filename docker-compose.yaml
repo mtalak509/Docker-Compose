@@ -1,0 +1,22 @@
+
+services:
+  telegram-bot:
+    build:
+      context: ./telegramm-bot
+    networks:
+      - Mynet1
+    ports:
+      - "80:80"
+
+  streamlit-app:
+    build:
+      context: ./stremlit-app
+    networks:
+      - Mynet1
+    ports:
+      - "8501:8501"
+    
+
+networks:
+  Mynet1:
+    driver: bridge

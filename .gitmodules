@@ -1,0 +1,6 @@
+[submodule "telegramm-bot"]
+	path = telegramm-bot
+	url = https://github.com/mtalak509/telegramm-bot
+[submodule "Stremlit-app"]
+	path = Stremlit-app
+	url = https://github.com/mtalak509/Stremlit-app
